@@ -60,7 +60,7 @@ export async function logInToInstance () {
 }
 
 export async function registerDefaultInstance () {
-  let currentRegisteredInstanceName = 'mastodon.social'
+  let currentRegisteredInstanceName = 'social.xqz.ca'
   let { loggedInInstances, instanceThemes } = store.get()
   instanceThemes[currentRegisteredInstanceName] = 'default'
   loggedInInstances[currentRegisteredInstanceName] = {}
